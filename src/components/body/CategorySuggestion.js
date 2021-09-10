@@ -1,4 +1,4 @@
-import VideoComponent from "./VideoComponent";
+import VideoComponentGrid from "./VideoComponentGrid";
 
 const CategorySuggestion = () => {
     let suggestionList = ["All","Computer Science", "Courses", "Stock Markets", "3D printing", "Tanmay Bhat", "Comedies", "WordPress", "TED", "History", "Conversation", "Chords", "Electric Guitars", "Recently Uploaded", "New to you"];
@@ -14,7 +14,7 @@ const CategorySuggestion = () => {
                 <hr />
             </nav>
             <main id = "containsMain">
-                <VideoComponent />
+                <VideoComponentGrid />
             </main>
         </div>
     )

@@ -27,7 +27,6 @@ header {
 
 #yt-logo {
   margin: 10px 15px;
-  /* background-color: white; */
   height: 30px;
   width: 100px;
 }
@@ -241,8 +240,9 @@ input:focus {
 .videoCard {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  max-width: 320px;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .coverImage {
@@ -260,6 +260,7 @@ input:focus {
 
 .titleText {
   width: 95%;
+  color: white;
   font-size: 15px;
   font-weight: 500;
 }
@@ -275,8 +276,34 @@ input:focus {
 }
 
 .author, .views {
-  color: #9F9F9F;
+  color: #9f9f9f;
   font-size: 14px;
+  display: inline;
+  text-decoration: none;
+}
+
+.author::after {
+  display: none;
+  content: "Kevin Powell";
+  position: relative;
+  margin: -80px;
+  top: -40px;
+  color: #d4dfe6;
+  background: #595959;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.author {
+  width: 80px;
+}
+
+.author:hover {
+  color: #797979;
+}
+
+.author:hover::after {
+  display:inline;
 }
 
 .flexboxContainer {

@@ -40,7 +40,7 @@ const YtLogo = () => {
       fill="white"
     ></path>
   </g>
-</svg>;
+</svg>
 
         </div>
     )
