@@ -1,11 +1,13 @@
-import {Fragment} from 'react'
+// import {Fragment} from 'react'
 import VideoEmbed from './videoPlayerComponents/VideoEmbed'
+import NextVideo from './videoPlayerComponents/NextVideo'
 
 const VideoPlayer = () => {
     return (
-        <Fragment>
+        <div style = {{backgroundColor: "#181818", height: "100vh"}}>
             <VideoEmbed />
-        </Fragment>
+            <NextVideo />
+        </div>
     )
 }
 

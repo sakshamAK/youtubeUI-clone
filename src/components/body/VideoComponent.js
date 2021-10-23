@@ -1,9 +1,8 @@
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import VideoPlayer from "../../VideoPlayer";
+import { Link } from "react-router-dom";
+// import VideoPlayer from "../../VideoPlayer";
 
 const VideoComponent = () => {
     return (
-        <BrowserRouter>
             <Link style = {{
                 textDecoration: "none"
             }} to = "Video">
@@ -31,12 +30,6 @@ const VideoComponent = () => {
                 </section>
             </section>
             </Link>
-            <Switch>
-                <Route path = "/Video">
-                    <VideoPlayer />
-                </Route>
-            </Switch>
-        </BrowserRouter>
     );
 };
 

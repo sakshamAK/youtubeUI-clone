@@ -1,6 +1,6 @@
 const VideoEmbed = () => {
     return (
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QqDH5sYzDS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="960" height="545" src="https://www.youtube.com/embed/QqDH5sYzDS8?autoplay=1&modestbranding=1" title="YouTube video player" frameborder="0" id = "primary-video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     )
 }
 

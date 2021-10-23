@@ -10,6 +10,7 @@ header {
   width: 100vw;
   padding: 10px 15px 0;
   display: flex;
+  background: #202020;
 }
 
 .hamburger {
@@ -312,4 +313,10 @@ input:focus {
 
 .flexboxContainer:last-child {
   margin-bottom: 0;
+}
+
+/* video page */
+
+#primary-video {
+  margin: 80px 100px;
 }

@@ -1,3 +1,13 @@
+import music from "../../icons/music.jpg"
+import game from "../../icons/game.jpg"
+import award from "../../icons/award.jpg"
+import fashion from "../../icons/fashion.jpg"
+import gameLove from "../../icons/gameLove.jpg"
+import insight from "../../icons/insight.jpg"
+import live from "../../icons/live.jpg"
+import movies from "../../icons/movies.jpg"
+import news from "../../icons/news.jpg"
+import ytred from "../../icons/ytred.jpg"
 let sideMenuItems = {
     Home: {
         name: "Home",
@@ -27,52 +37,52 @@ let sideMenuItems = {
     Music: {
         name: "Music",
         index:6,
-        path: ""
+        path: music
     },
     Sports: {
         name: "Sports",
         index:7,
-        path: "https://yt3.ggpht.com/PXNfOV8wEGxwEgh-zeiawiyNcA9YvUQ5vi7QpkBD9lbVY4ACNw19V-LR4aPsAnOXLUzy0EBOK9U=s88-c-k-c0x00ffffff-no-rj"
+        path: award
     },
     Gaming: {
         name: "Gaming",
         index:8,
-        path: "https://yt3.ggpht.com/rNgZR3znpNQ9PMK-w8Un8-EYHhJ4LyWBMAXBpvrV2Wnl5cJDGqaqy7WVZ6598RMcyUmQSq2aXA=s88-c-k-c0x00ffffff-no-rj"
+        path: gameLove
     },
     Movies: {
         name: "Movies",
         index:9,
-        path: "https://yt3.ggpht.com/6lo97rUTO7xhIBXZqLiaW2kA_eMBIEmqc27EqlKLyE4nAY-yzcKBG0Hs0YdUka3gJ629HcwgyzQ=s88-c-k-c0x00ffffff-no-rj"
+        path: movies
     },
     News: {
         name: "News",
         index:10,
-        path: "https://yt3.ggpht.com/SclLT85nRSOT88WXYQtXFMLRBL4PiU44kKzANIWWt23YZW4CWikSdg3_53SLnaUeHQdq9ijYSA=s88-c-k-c0x00ffffff-no-rj"
+        path: news
     },
     Live: {
         name: "Live",
         index:11,
-        path: "https://yt3.ggpht.com/8D6JlsnvwDZFMdcbjqVji82kggP3aXXbO-yBD0RFrKlp4G1zNt9wcqcVTSPnAI8GuUAbDYQwsg=s88-c-k-c0x00ffffff-no-rj"
+        path: live
     },
     FashionBeauty: {
         name: "Fashion & Beauty",
         index:12,
-        path: "https://yt3.ggpht.com/MDdvCIjJYkZZ5vClU_T5RboHwOvJPDFV-LQmoyP1mjPsr2GytGTFCEIAttumhzDpbpQFbfJT_Tw=s88-c-k-c0x00ffffff-no-rj"
+        path: fashion
     },
     Learning: {
         name: "Learning",
         index:13,
-        path: "https://yt3.ggpht.com/QoX6rK-YUaBSyWjLSzTTCkRIwB-QNDhmPyXlKUcBXRYq_b9XsDwDkrFdTjbf77W0i857Zeq5VmY=s88-c-k-c0x00ffffff-no-rj"
+        path: insight
     },
     Spotlight: {
         name: "Spotlight",
         index:14,
-        path: "https://yt3.ggpht.com/ytc/AKedOLQOxbU9dZGL0XnLXMzWRRZiW7elSPl4JguWrcYfaxE=s88-c-k-c0x00ffffff-no-rj"
+        path: ytred
     },
     Video360: {
         name: "360 Video",
         index:15,
-        path: "https://yt3.ggpht.com/DijtXjy-SqkwfgkSwP1dT63M_kaOllTR2-gItueA0Zmx6YBOIp4msKwUXKTcRg_RFgeOFnRk=s88-c-k-c0x00ffffff-no-rj"
+        path: game
     },
     BrowseChannels: {
         name: "Browse Channels",
