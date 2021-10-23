@@ -1,5 +1,6 @@
 import "./App.css";
-import Home from "./Home"
+import Home from "./Home";
+// import Video from "./components/"
 import { Fragment } from "react";
 
 function App() {

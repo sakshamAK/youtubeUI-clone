@@ -27,7 +27,7 @@ let sideMenuItems = {
     Music: {
         name: "Music",
         index:6,
-        path: "https://yt3.ggpht.com/iwlga_1-gvIWs0UNoQbWlUpGCcYNLfQKeDo8XG7YqFHRH9qZNoL7qZCIyNy002vkb5cdKH0FxPU=s88-c-k-c0x00ffffff-no-rj"
+        path: ""
     },
     Sports: {
         name: "Sports",
