@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap');
+
 body {
   background: #202020;
   font-family: Roboto;
@@ -317,6 +319,29 @@ input:focus {
 
 /* video page */
 
+#primary-video-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #181818;
+  height: 100vh;
+  margin-top: 65px;
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 0.88em;
+  letter-spacing: 0.6px;
+  
+}
+
 #primary-video {
-  margin: 80px 100px;
+  margin: 20px 20px 20px 100px;
+}
+
+.secondary-video-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.video-content-info {
+  display: flex;
+  flex-direction: column;
 }

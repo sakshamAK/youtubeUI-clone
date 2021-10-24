@@ -11,7 +11,7 @@ import VideoPlayer from "./VideoPlayer";
 function App() {
   return (
     <Router>
-      <header>
+      <header style = {{position:"absolute", top:"0"}}>
         <Ham />
         <a href="#home">
           <YtLogo />
