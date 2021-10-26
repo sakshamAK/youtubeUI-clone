@@ -1,20 +1,12 @@
 import VideoComponent from "./VideoComponent";
 
 const VideoComponentGrid = () => {
-    let countIt = ["1","2","3","4"];
-    return (
-        countIt.map(() => {
-            return(
-                <article className = "flexboxContainer">
-                    {countIt.map(() => {
-                        return (
-                            <VideoComponent />
-                        )
-                    })}
-                </article>
-            )
-        })
-    )
-}
+    return Array.from(Array(6).keys(), () => {
+        return (<article className="flexboxContainer">
+            {Array.from(Array(4).keys(), () => (
+                <VideoComponent />
+            ))}
+        </article>
+    )})}
 
-export default VideoComponentGrid
+export default VideoComponentGrid;

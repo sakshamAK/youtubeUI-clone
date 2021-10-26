@@ -8,7 +8,7 @@ const CategorySuggestion = () => {
             <nav id = "containerDiv">
                 <ul id = "suggestionBar">
                     {suggestionList.map(item => {
-                        return(<li class = "suggestItems">{item}</li>);
+                        return(<li className = "suggestItems">{item}</li>);
                     })}
                 </ul>
                 <hr />
